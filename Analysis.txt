@@ -38,3 +38,4 @@ text file also row by row. Up to now, the complexity is O(n); however, the sorte
 comlexity O(n logn) instead of O(n). 
 
 
+As a reference, I used the following book: Introduction to the Design and Analysis of Alogrithms 
