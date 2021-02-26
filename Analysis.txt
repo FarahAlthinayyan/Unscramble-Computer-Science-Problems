@@ -1,0 +1,40 @@
+The calculation of the big O is going to be explained here:
+
+Task Zero:
+
+complexity = O(1)
+
+Both statements have a complexity of O(1) because they are constants. 
+
+Task One:
+
+complexity = O(2n) = O(n)
+
+In this task, we iterate through both csv files row by row. For this reason, the time complexity is O(2n), 
+or in other words, linear O(n) after removing the constants.
+
+Task Two:
+
+complexity = O(n)
+
+Same as the previous task, we iterate through the entire file row by row sequentially; thus, our complexity will be linear, 
+O(n). 
+
+Task Three:
+
+complexity = O(n logn)
+
+We first start off by iterating through all of the csv rows which has a complexity of O(n) as we have mentioned earlier.
+Then we will sort the list which has a complexity of O(n logn) as mentioned in the project explanation. Since the 
+logarithmic O(n logn) complexity is greater than O(n) the linear complexity, the complexity is going to be O(n logn). 
+
+
+Task Four:
+
+complexity = O(n logn)
+
+The fourth task, like the third, also iterates through through the fil calls file row by row. Then, it iterates through the 
+text file also row by row. Up to now, the complexity is O(n); however, the sorted() method is used, which makes the 
+comlexity O(n logn) instead of O(n). 
+
+
