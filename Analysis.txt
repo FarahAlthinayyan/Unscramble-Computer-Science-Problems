@@ -10,8 +10,8 @@ Task One:
 
 complexity = O(2n) = O(n)
 
-In this task, we iterate through both csv files row by row. For this reason, the time complexity is O(2n), 
-or in other words, linear O(n) after removing the constants.
+In this task, we iterate through both csv files row by row. For this reason, the time complexity is 
+linear O(n) after removing the constants.
 
 Task Two:
 
