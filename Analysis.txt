@@ -33,7 +33,7 @@ Task Four:
 
 complexity = O(n logn)
 
-The fourth task, like the third, also iterates through through the fil calls file row by row. Then, it iterates through the 
+The fourth task, like the third, also iterates through through the calls file row by row. Then, it iterates through the 
 text file also row by row. Up to now, the complexity is O(n); however, the sorted() method is used, which makes the 
 comlexity O(n logn) instead of O(n). 
 
